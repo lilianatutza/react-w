@@ -3,17 +3,18 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Form from "./Form";
-
+import Footer from "./Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="Body"> 
-    <App />
+    <div className="Body">
+      <App />
       <Form />
-     
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
-
   </React.StrictMode>
 );
 
