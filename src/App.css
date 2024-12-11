@@ -1,44 +1,53 @@
 .App {
-  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(39, 33, 36, 0.7);
 }
-
-.Weather {
-  text-align: center;
-  font-weight: bold;
- 
+.Body {
+  background-color: #a5ecd7;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchForm{
+  background-color: #e8ffc1;
+  border: none;
+  border-radius: 16px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.searchFormButton {
+  background-color: #0278ae;
+  padding: 17px 30px;
+  border: none;
+  border-radius: 16px;
   color: white;
+  margin-left: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.weatherAppDetails2 {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(39, 33, 36, 0.4);
+  font-weight: 500;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherAppDetails1 {
+  font-size: 30px;
+  line-height: 100px;
+  font-weight: 500;
+  display: flex;
+  column-gap: 10px;
+  display:flex;
+  justify-content:space-between;
+}
+.City{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgba(39, 33, 36, 0.7);
+}
+.tempDigit{
+  font-size: 80px;
+  color: rgba(39, 33, 36, 0.8);
 }
