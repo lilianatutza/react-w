@@ -3,15 +3,15 @@
   color: rgba(39, 33, 36, 0.7);
 }
 .Body {
-  background-color: #a5ecd7;
-    max-width: 600px;
-    margin: 45px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 16px;
-    padding: 30px;
+  background-color: #d2e4df;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
 }
-.searchForm{
-  background-color: #e8ffc1;
+.searchForm {
+  background-color: #c3d1eb;
   border: none;
   border-radius: 16px;
   width: 80%;
@@ -19,7 +19,7 @@
   padding: 15px 20px;
 }
 .searchFormButton {
-  background-color: #0278ae;
+  background-color: #93a8d0;
   padding: 17px 30px;
   border: none;
   border-radius: 16px;
@@ -38,16 +38,16 @@
   font-weight: 500;
   display: flex;
   column-gap: 10px;
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
-.City{
-  font-family: 'Courier New', Courier, monospace;
+.City {
+  font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   font-size: 50px;
   color: rgba(39, 33, 36, 0.7);
 }
-.tempDigit{
+.tempDigit {
   font-size: 80px;
   color: rgba(39, 33, 36, 0.8);
 }
