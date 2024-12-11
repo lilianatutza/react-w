@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function SearchEngine() {
+export default function Form() {
   const [place, setPlace] = useState("");
   const [resultMessage, setResultMessage] = useState("");
   const [busy, setBusy] = useState(false);
